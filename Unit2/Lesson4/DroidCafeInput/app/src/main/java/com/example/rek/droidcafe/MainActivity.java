@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.action_order:
                 displayToast(getString(R.string.action_order_message));
-
                 Intent intento = new Intent(MainActivity.this, OrderActivity.class);
                 intento.putExtra(ORDER_MESSAGE, mOrderMessage);
                 startActivity(intento);
