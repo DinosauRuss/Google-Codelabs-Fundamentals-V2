@@ -21,7 +21,7 @@ public class OrderActivity extends AppCompatActivity {
         Intent intento = getIntent();
         mReceiveMessage = intento.getStringExtra(ORDER_MESSAGE);
 
-        // Change text based on message from MainActivity
+        // Change text based on message from MainActivityf
         mTvOrderMessage = findViewById(R.id.tvOrderMessage);
         mTvOrderMessage.setText(mReceiveMessage);
     }
