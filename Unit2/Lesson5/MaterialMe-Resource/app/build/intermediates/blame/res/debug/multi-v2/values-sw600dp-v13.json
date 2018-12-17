@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/res/values-sw600dp/integers.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "611",
+                        "endColumns": "49",
+                        "endOffsets": "656"
+                    }
+                },
+                {
+                    "source": "/home/rek/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9fb4e9c5520175561a2e6b1ef4d206db/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/res/values-sw600dp/styles.xml",
+                    "from": {
+                        "startLines": "4,-1,17,13",
+                        "startColumns": "4,-1,4,4",
+                        "startOffsets": "93,-1,650,495",
+                        "endLines": "9,-1,17,15",
+                        "endColumns": "12,-1,81,12",
+                        "endOffsets": "407,-1,727,644"
+                    },
+                    "to": {
+                        "startLines": "11,17,18,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "661,980,1060,1141",
+                        "endLines": "16,17,18,21",
+                        "endColumns": "12,79,80,12",
+                        "endOffsets": "975,1055,1136,1290"
+                    }
+                }
+            ]
+        }
+    ]
+}

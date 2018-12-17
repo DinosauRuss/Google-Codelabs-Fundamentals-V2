@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rek/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ffe923a039512657c3add896b034ecb4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9fb4e9c5520175561a2e6b1ef4d206db/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6cf6fada1645adba2a18be8c082ca272/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7b2fb8ee683afe95d3ea4d13f1601f72/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/836166ef2470a6ab0d685a100ef3ee0d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c8d4326cd37de34d544afae8ce9a8053/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c9b50c9f10db5ea3abb456435d5a12fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/71eb4b0745085d1fbf60f4f8356961d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5c8e12a034bdc9ac99cc751a8db430fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c6041368ad17014c96d06570ae7288e6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c4d2191ee965a4f4ca9945f134840bc8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f13e3ab1deff38a90d32ce3320c7f2ac/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dab0f5c678cb73834a3ac1528fa27d3d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/24b5a24b4294da505dd58c7805e10f0f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+	package
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:17:5-45
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:1-35:12
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:16:11-69
+application
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:19:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rek/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ffe923a039512657c3add896b034ecb4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rek/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ffe923a039512657c3add896b034ecb4/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:24:9-40
+activity#com.example.android.materialme.MainActivity
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:29:27-74
+activity#com.example.android.materialme.DetailActivity
+ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:32:9-61
+	android:name
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml:32:19-49
+uses-sdk
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rek/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ffe923a039512657c3add896b034ecb4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/rek/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ffe923a039512657c3add896b034ecb4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9fb4e9c5520175561a2e6b1ef4d206db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9fb4e9c5520175561a2e6b1ef4d206db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6cf6fada1645adba2a18be8c082ca272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6cf6fada1645adba2a18be8c082ca272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7b2fb8ee683afe95d3ea4d13f1601f72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/7b2fb8ee683afe95d3ea4d13f1601f72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/836166ef2470a6ab0d685a100ef3ee0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/836166ef2470a6ab0d685a100ef3ee0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c8d4326cd37de34d544afae8ce9a8053/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/c8d4326cd37de34d544afae8ce9a8053/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c9b50c9f10db5ea3abb456435d5a12fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c9b50c9f10db5ea3abb456435d5a12fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/71eb4b0745085d1fbf60f4f8356961d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/71eb4b0745085d1fbf60f4f8356961d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5c8e12a034bdc9ac99cc751a8db430fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/5c8e12a034bdc9ac99cc751a8db430fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c6041368ad17014c96d06570ae7288e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/rek/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c6041368ad17014c96d06570ae7288e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c4d2191ee965a4f4ca9945f134840bc8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/c4d2191ee965a4f4ca9945f134840bc8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f13e3ab1deff38a90d32ce3320c7f2ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f13e3ab1deff38a90d32ce3320c7f2ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dab0f5c678cb73834a3ac1528fa27d3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/dab0f5c678cb73834a3ac1528fa27d3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/24b5a24b4294da505dd58c7805e10f0f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/rek/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/24b5a24b4294da505dd58c7805e10f0f/AndroidManifest.xml:20:5-44
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		ADDED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml
+		INJECTED from /home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/src/main/AndroidManifest.xml

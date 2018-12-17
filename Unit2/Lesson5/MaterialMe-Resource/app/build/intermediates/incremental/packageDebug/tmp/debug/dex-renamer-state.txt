@@ -1,0 +1,4 @@
+#Mon Dec 17 10:00:36 PST 2018
+base.0=/home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit2/Lesson5/MaterialMe-Resource/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
