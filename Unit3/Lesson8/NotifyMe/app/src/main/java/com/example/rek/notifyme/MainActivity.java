@@ -9,7 +9,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -23,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     // Action for broadcast
     private static final String ACTION_UPDATE_NOTIFICATION =
             "com.example.android.notifyme.ACTION_UPDATE_NOTIFICATION";
-
     private NotificationReceiver mNotificationReceiver;
 
     // Unique identifier for notification channel
@@ -73,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
         toggleButtonStates(true, false, false);
     }
 
+    /**
+     * Create notification channel and apply to Notification Manager.
+     * For >API 26
+     */
     public void createNotificationChannel(){
         mNotifyManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
@@ -90,20 +92,31 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Send notification with action to update image
+     */
     public void sendNotification() {
+        // Pending intent which broadcasts this class to update notification
         Intent updateIntent = new Intent(ACTION_UPDATE_NOTIFICATION);
         PendingIntent pIntento = PendingIntent.getBroadcast(
                 this, NOTIFICATION_ID, updateIntent, PendingIntent.FLAG_ONE_SHOT);
 
+        // Get builder and add broadcast pending intent
         NotificationCompat.Builder buildo = getNotificationBuilder();
         buildo.addAction(R.drawable.ic_update, "Update Notification", pIntento);
 
+        // Send notification
         mNotifyManager.notify(NOTIFICATION_ID, buildo.build());
 
         toggleButtonStates(false, true, true);
-
     }
 
+    /**
+     * Helper method to build notification containing
+     * pending intent which returns to this activity
+     *
+     * @return  A notification builder
+     */
     private NotificationCompat.Builder getNotificationBuilder() {
         // Return to MainActivity when notification is pressed
         Intent intento = new Intent(this, MainActivity.class);
@@ -125,6 +138,9 @@ public class MainActivity extends AppCompatActivity {
         return buildo;
     }
 
+    /**
+     * Update notification with image, update button states
+     */
     private void updateNotification() {
         // Convert image to bitmap
         Bitmap image = BitmapFactory.decodeResource(getResources(), R.drawable.mascot_1);
@@ -138,12 +154,20 @@ public class MainActivity extends AppCompatActivity {
         toggleButtonStates(false, false, true);
     }
 
+    /**
+     * Cancel previous notification, update button states
+     */
     private void cancelNotification() {
         mNotifyManager.cancel(NOTIFICATION_ID);
-
         toggleButtonStates(true, false, false);
     }
 
+    /**
+     * Enable/disable button states
+     * @param notifyState   New state of notify button
+     * @param updateState   New state of update button
+     * @param cancelState   New state of cancel button
+     */
     private void toggleButtonStates(Boolean notifyState, Boolean updateState,
                                     Boolean cancelState) {
         mBtnNotify.setEnabled(notifyState);
@@ -151,7 +175,17 @@ public class MainActivity extends AppCompatActivity {
         mBtnCancel.setEnabled(cancelState);
     }
 
+    @Override
+    protected void onDestroy() {
+        // No longer receive broadcasts
+        this.unregisterReceiver(mNotificationReceiver);
+        super.onDestroy();
+    }
 
+
+    /**
+     * Custom broadcast receiver used to update notification
+     */
     public class NotificationReceiver extends BroadcastReceiver {
 
         NotificationReceiver() {
@@ -163,9 +197,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onDestroy() {
-        this.unregisterReceiver(mNotificationReceiver);
-        super.onDestroy();
-    }
 }
