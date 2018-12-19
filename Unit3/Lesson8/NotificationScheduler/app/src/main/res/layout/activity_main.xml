@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_network_type_required"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_margin="4dp"
+        android:id="@+id/tvNetworkOptions" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rgNetworkOptions"
+        android:layout_margin="4dp" >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_none"
+            android:id="@+id/rbNetworkNone"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_any"
+            android:id="@+id/rbNetworkAny" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_wifi"
+            android:id="@+id/rbNetworkWifi" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_schedule"
+        android:onClick="scheduleJob"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:id="@+id/btnSchedule"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cancel"
+        android:onClick="cancelJobs"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"
+        android:id="@+id/btnCancel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_requires"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_margin="4dp"
+        android:id="@+id/tvRequires" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sw_device_idle"
+            android:id="@+id/swIdle"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sw_device_charging"
+            android:id="@+id/swCharging"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_override_deadline"
+            android:id="@+id/tvSeekBarLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_seekbar_status_not_set"
+            android:id="@+id/tvSeekBarStatus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+    </LinearLayout>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:id="@+id/skbDeadline" />
+
+</LinearLayout>

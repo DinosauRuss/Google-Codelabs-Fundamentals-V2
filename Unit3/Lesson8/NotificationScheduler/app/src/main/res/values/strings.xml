@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NotificationScheduler</string>
+    <string name="notification_channel_name">Job Service Notification</string>
+    <string name="notification_channel_desc">Enable Job Service</string>
+    <string name="jobService_title">Job Service</string>
+    <string name="jobService_text">Your job is running</string>
+    <string name="rb_none">None</string>
+    <string name="rb_any">Any</string>
+    <string name="rb_wifi">Wifi</string>
+    <string name="btn_schedule">Schedule Job</string>
+    <string name="btn_cancel">Cancel Jobs</string>
+    <string name="tv_network_type_required">Network Type Required:</string>
+    <string name="tv_requires">Requires:</string>
+    <string name="sw_device_idle">Device Idle</string>
+    <string name="sw_device_charging">Device Charging</string>
+    <string name="tv_override_deadline">Override Deadline: </string>
+    <string name="tv_seekbar_status_not_set">Not Set</string>
+</resources>
