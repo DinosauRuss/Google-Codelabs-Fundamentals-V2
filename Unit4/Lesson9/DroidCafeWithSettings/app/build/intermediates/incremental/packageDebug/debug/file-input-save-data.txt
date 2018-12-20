@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Dec 20 10:56:24 PST 2018
+0.baseType=DIRECTORY
+0.base=/home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit4/Lesson9/DroidCafeWithSettings/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
