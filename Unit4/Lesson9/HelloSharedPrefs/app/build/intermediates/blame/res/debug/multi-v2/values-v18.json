@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/rek/AndroidStudioProjects/Google_codelabs_fundamentals_v2/Unit4/Lesson9/HelloSharedPrefs/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/home/rek/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c393647ed103745610196aefd600e814/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
