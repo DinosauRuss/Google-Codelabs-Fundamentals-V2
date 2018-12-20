@@ -15,6 +15,7 @@
  */
 package com.example.android.hellosharedprefs;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v4.content.ContextCompat;
@@ -75,6 +76,9 @@ public class MainActivity extends AppCompatActivity {
         // Count background color
         mColor = mPreferences.getInt(COLOR_KEY, mColor);
         mShowCountTextView.setBackgroundColor(mColor);
+
+        Log.d(TAG, String.valueOf(mColor));
+        Log.d(TAG, String.valueOf(R.color.red_background));
     }
 
     @Override
@@ -135,4 +139,8 @@ public class MainActivity extends AppCompatActivity {
         edito.apply();
     }
 
+    public void secondaryActivity(View view) {
+        Intent intento = new Intent(this, SecondActivity.class);
+        startActivity(intento);
+    }
 }

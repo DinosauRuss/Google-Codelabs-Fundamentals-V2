@@ -39,6 +39,9 @@ limitations under the License. -->
     <string name="secondary_activity_button">Save Page</string>
     <string name="secondary_activity_title">Secondary Activity</string>
     <string name="spinner_prompt">Choose Color</string>
+    <string name="tv_settings_activity">Settings Activity</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
 
     <string-array name="colors">
         <item>Black</item>

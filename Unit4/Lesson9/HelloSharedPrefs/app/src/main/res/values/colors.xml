@@ -16,6 +16,7 @@ limitations under the License. -->
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="black_background">#000</color>
     <color name="red_background">#CC0000</color>
     <color name="blue_background">#0099cc</color>
     <color name="green_background">#669900</color>
